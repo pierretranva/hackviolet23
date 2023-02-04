@@ -149,6 +149,12 @@
         position: relative;
         z-index: 999;
         background-color: #e7d1ff;
+        background-image: url("./assets/wallpaper.png");
+        background-size:100%;
+    }
+
+    component{
+        width:700px;
     }
     /*-------------------------------------------*\
         Fullscreen

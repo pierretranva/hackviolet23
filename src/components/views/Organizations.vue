@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="outside">
         <h1>
             Organizations
         </h1>
@@ -56,7 +56,6 @@
 /*-------------------------------------------*\
     CSS Normalisation 
 \*-------------------------------------------*/
-
 p {
     margin: 0;
     padding: 0;
