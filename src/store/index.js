@@ -114,6 +114,25 @@ export default new Vuex.Store({
         fullscreen: false
       },
       // register your new windows here
+      {
+        windowId: "Resources", 
+        windowState: "close",
+        displayName: "Resources",
+        windowComponent: 'window',
+        windowContent: 'Resources',
+        windowContentPadding: {
+          top: '5%',
+          right: '5%',
+          bottom: '5%',
+          left: '5%'
+        },
+        position: "absolute",
+        positionX: "6vw",
+        positionY: "12vh",
+        iconImage: "placeholder.png",
+        altText: "Placeholder Icon",
+        fullscreen: false
+      },
     ],
   },
   mutations: {

@@ -46,6 +46,7 @@ import OSWindow from './components/template/Window'
 import Blueprint from './components/views/Blueprint'
 import Windows from './components/views/Windows.vue'
 import MacOS from './components/views/MacOS.vue'
+import Resources from './components/views/Resources.vue'
 export default {
     name: 'App',
     data: function () {
@@ -63,7 +64,8 @@ export default {
         OSWindow,
         Blueprint,
         Windows,
-        MacOS
+        MacOS,
+        Resources
         // TopNavbar,
     },
     computed: {
