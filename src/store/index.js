@@ -109,7 +109,7 @@ export default new Vuex.Store({
         position: "absolute",
         positionX: "6vw",
         positionY: "12vh",
-        iconImage: "placeholder.png",
+        iconImage: "Photos.png",
         altText: "Placeholder Icon",
         fullscreen: false
       },
