@@ -4,47 +4,31 @@
             <img class="sidebar-image" src="@/assets/sidebar-image.png"/>
         </div>
         <div class="socials">
-            <a href="https://www.instagram.com/_dontax_/" target="_blank">
+            <a href="https://www.hackviolet.com/" target="_blank">
             <div class="bar">
-                <img class="social-image" src="@/assets/win95.png"/>
-                <div class="social-text"><u>I</u>nstagram</div>
-            </div>
-            </a>
-            <a href="https://www.reddit.com/user/satoshigekkouga2303" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/win95.png"/>
-                <u>R</u>eddit
-            </div>
-            </a>
-            <a href="https://www.linkedin.com/in/don-chia-谢祺恩）-0b518b160" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/win95.png"/>
-                <u>L</u>inkedIn
-            </div>
-            </a>
-            <a href="https://twitter.com/lizarDON2303" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/win95.png"/>
-                <u>T</u>witter
-            </div>
-            </a>
-            <a href="https://github.com/DonChiaQE" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/win95.png"/>
-                <u>G</u>itHub
+                <img class="social-image" src="@/assets/icons/hackviolet.png"/>
+                <div class="social-text"><u>HackViolet</u></div>
             </div>
             </a>
             <div class="divider"></div>
-            <a href="/files/don_chia_resume.pdf" target="_blank">
-                <div class="bar">
-                    <img class="social-image" src="@/assets/win95.png"/>
-                    <u>R</u>ésumé
-                </div>
-            </a>
-            <a href="https://apps.apple.com/app/nossaflex/id1523558285" target="_blank">
+            <a href="https://eng.vt.edu/" target="_blank">
             <div class="bar">
-                <img class="social-image" src="@/assets/win95.png"/>
-                <u>N</u>OSSAFLEX
+                <img class="social-image" src="@/assets/icons/vtcoe.png"/>
+                <u>VT Engineering</u>
+            </div>
+            </a>
+            <div class="divider"></div>
+            <a href="https://gobblerconnect.vt.edu/" target="_blank">
+            <div class="bar">
+                <img class="social-image" src="@/assets/icons/gobblerconnect.png"/>
+                <u>Gobblerconnect</u>
+            </div>
+            </a>
+            <div class="divider"></div>
+            <a href="https://github.com/pierretranva/hackviolet23" target="_blank">
+            <div class="bar">
+                <img class="social-image" src="@/assets/icons/repo.png"/>
+                <u>Github Repo</u>
             </div>
             </a>
         </div>
@@ -52,8 +36,8 @@
 </template>
 <style scoped>
 .menu {
-    width: 165px;
-    height: 282px;
+    width: 200px;
+    height: 170px;
     background: black;
     background: rgb(195, 195, 195);
     overflow: hidden;
