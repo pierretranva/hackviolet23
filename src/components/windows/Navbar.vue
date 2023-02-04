@@ -10,19 +10,19 @@
             v-for="window in this.activeWindows" 
             :key="window.key"
         >
-            <!-- <button 
+            <button 
                 v-if="$store.getters.getActiveWindow!==window.windowId && (window.windowState=='open' || window.windowState=='minimize')" v-on:click="openWindow(window.windowId)" 
                 class="navbar-item open"> 
-                    <img class="icon-image" :src="require('@/assets/win95Icons/' + window.iconImage)" :alt="window.altText"/>
+                    <img class="icon-image" :src="require('@/assets/icons/' + window.iconImage)" :alt="window.altText"/>
                     <p>{{window.displayName}}</p>
-            </button> -->
-            <!-- <button 
+            </button>
+            <button 
                 v-if="$store.getters.getActiveWindow==window.windowId" 
                 v-on:click="openWindow(window.windowId)" 
                 class="navbar-item-depressed">
-                <img class="icon-image" :src="require('@/assets/win95Icons/' + window.iconImage)" :alt="window.altText"/>
+                <img class="icon-image" :src="require('@/assets/icons/' + window.iconImage)" :alt="window.altText"/>
                     <p>{{window.displayName}}</p>
-            </button> -->
+            </button>
         </div>
         <div class="spacer"></div>
         <div alt="time" class="time">

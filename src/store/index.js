@@ -33,7 +33,7 @@ export default new Vuex.Store({
         position: "absolute", // Window Position
         positionX: "10vw", // Window Position X (when first opened)
         positionY: "15vh", // Window Position Y (when first opened)
-        iconImage: "placeholder.png", // Window Icon Image
+        iconImage: "desktop.png", // Window Icon Image
         altText: "Placeholder Icon", // Window Icon Alt Text
         fullscreen: false // Window Fullscreen State [true, false]
       },
