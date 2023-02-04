@@ -42,7 +42,7 @@ import Window from './components/template/Window'
 import AppGrid from './components/AppGrid'
 import Placeholder from './components/views/Placeholder'
 import Photos from './components/views/Photos'
-import OSWindow from './components/template/OSWindow'
+import OSWindow from './components/template/Window'
 import Blueprint from './components/views/Blueprint'
 import Windows from './components/views/Windows.vue'
 import MacOS from './components/views/MacOS.vue'
@@ -124,9 +124,9 @@ export default {
     Change 'blueprint' to 'windows' or 'macos' to use windows or macos theme
 \*---------------------------------------------------------------------------*/
 @import './assets/css/utils/normalize.css';
-@import './assets/css/blueprint/app.css';
-@import './assets/css/blueprint/window.css';
-@import './assets/css/blueprint/appgrid.css';
+@import './assets/css/windows/app.css';
+@import './assets/css/windows/window.css';
+@import './assets/css/windows/appgrid.css';
 
 /*-------------------------------------------*\
     Utilities
@@ -151,6 +151,7 @@ html {
     width: 100%;
     position: relative;
     z-index: 999;
+    background-color: #e7d1ff;
 }
 
 /*-------------------------------------------*\

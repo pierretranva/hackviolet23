@@ -73,7 +73,7 @@ background: rgb(192, 192, 192);
     display: flex;
     height: 25px;
     width: auto;
-    background: rgb(0, 0, 124);
+    background: #44409e;
     z-index: 10;
     align-items: center;
     justify-content: space-between;
@@ -100,7 +100,7 @@ background: rgb(192, 192, 192);
 \*-------------------------------------------*/
 
 button {
-    background: none;
+    background: #44409e;
     color: inherit;
     border: none;
     font: inherit;
