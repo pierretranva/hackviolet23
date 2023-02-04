@@ -27,6 +27,9 @@
         <div class="spacer"></div>
         <div alt="time" class="time">
             <img src="@/assets/speakers.png" class="icon-image"/>
+            <img src="@/assets/icons/Computer.png" class="icon-image"/>
+            <img src="@/assets/icons/desktop.png" class="icon-image"/>
+            <img src="@/assets/icons/dvd.png" class="icon-image"/>
             <time>
                 {{time}}
             </time>
@@ -171,7 +174,7 @@
         flex-grow: 1;
     }
     .time {
-        width: 75px;
+        width: 150px;
         margin: 5px;
         height: 25px;
         background: rgb(192, 192, 192);
