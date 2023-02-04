@@ -8,6 +8,7 @@
             experiences for underrepresented groups in the College of Engineering by providing helfpul resources through our website. Thank you
             for visitng!
         </p>
+        <img src="../../assets/torgBridge.png"/>
     </div>
 </template>
 
@@ -19,5 +20,8 @@
 p {
     margin: 0;
     padding: 0;
+}
+img {
+    width: 100%;
 }
 </style>

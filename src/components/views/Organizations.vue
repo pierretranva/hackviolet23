@@ -52,5 +52,11 @@
 p {
     margin: 0;
     padding: 0;
+
+}
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 </style>

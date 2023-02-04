@@ -6,44 +6,44 @@
         <div class="socials">
             <a href="https://www.instagram.com/_dontax_/" target="_blank">
             <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Instagram.webp"/>
+                <img class="social-image" src="@/assets/win95.png"/>
                 <div class="social-text"><u>I</u>nstagram</div>
             </div>
             </a>
             <a href="https://www.reddit.com/user/satoshigekkouga2303" target="_blank">
             <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Reddit.webp"/>
+                <img class="social-image" src="@/assets/win95.png"/>
                 <u>R</u>eddit
             </div>
             </a>
             <a href="https://www.linkedin.com/in/don-chia-谢祺恩）-0b518b160" target="_blank">
             <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Linkedin.webp"/>
+                <img class="social-image" src="@/assets/win95.png"/>
                 <u>L</u>inkedIn
             </div>
             </a>
             <a href="https://twitter.com/lizarDON2303" target="_blank">
             <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Twitter.webp"/>
+                <img class="social-image" src="@/assets/win95.png"/>
                 <u>T</u>witter
             </div>
             </a>
             <a href="https://github.com/DonChiaQE" target="_blank">
             <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Github.webp"/>
+                <img class="social-image" src="@/assets/win95.png"/>
                 <u>G</u>itHub
             </div>
             </a>
             <div class="divider"></div>
             <a href="/files/don_chia_resume.pdf" target="_blank">
                 <div class="bar">
-                    <img class="social-image" src="@/assets/win95Icons/resume.png"/>
+                    <img class="social-image" src="@/assets/win95.png"/>
                     <u>R</u>ésumé
                 </div>
             </a>
             <a href="https://apps.apple.com/app/nossaflex/id1523558285" target="_blank">
             <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Nossaflex.webp"/>
+                <img class="social-image" src="@/assets/win95.png"/>
                 <u>N</u>OSSAFLEX
             </div>
             </a>
