@@ -50,6 +50,7 @@
     import Organizations from './components/views/Organizations.vue'
     import Resources from './components/views/Resources.vue'
     import StartMenu from './components/StartMenu.vue'
+    import Alumni from './components/views/Alumni.vue'
     export default {
         name: 'App',
         data: function () {
@@ -71,6 +72,7 @@
             Organizations,
             Resources,
             StartMenu,
+            Alumni,
             // TopNavbar,
         },
         computed: {

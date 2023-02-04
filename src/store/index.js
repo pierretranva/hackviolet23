@@ -42,7 +42,7 @@ export default new Vuex.Store({
         windowState: "close",
         displayName: "Notable Alumni",
         windowComponent: 'OSWindow',
-        windowContent: 'MacOS',
+        windowContent: 'Alumni',
         windowContentPadding: {
           top: '0px',
           right: '0px',
