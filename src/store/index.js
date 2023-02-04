@@ -71,7 +71,7 @@ export default new Vuex.Store({
         position: "absolute",
         positionX: "1vw",
         positionY: "1vh",
-        iconImage: "freshmen.png",
+        iconImage: "Freshmenupdated.png",
         altText: "Placeholder Icon",
         fullscreen: false
       },
