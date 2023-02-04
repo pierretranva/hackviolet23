@@ -85,7 +85,7 @@
         cursor: pointer;
     }
     .navbar-item-depressed {
-        width: 100px;
+        width: 120px;
         height: 28px;
         border-radius: 10px;
         margin-left: 2px;
@@ -183,7 +183,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        font-size: 0.6em;
+        font-size: 0.65em;
     }
     @media only screen and (max-width: 700px) { 
         .time {

@@ -23,7 +23,7 @@ export default new Vuex.Store({
         windowState: "open", // Window State [open, close, minimize]
         displayName: "About Us", // Display Name (title under icon)
         windowComponent: 'window', // Window Component (can be changed to use modified windows)
-        windowContent: 'Placeholder', // Window Content (used under slots)
+        windowContent: 'AboutUs', // Window Content (used under slots)
         windowContentPadding: {
           top: null,
           right: null,
@@ -79,8 +79,8 @@ export default new Vuex.Store({
         windowId: "Organizations", 
         windowState: "close",
         displayName: "Organizations",
-        windowComponent: 'OSWindow',
-        windowContent: 'Blueprint',
+        windowComponent: 'window',
+        windowContent: 'Organizations',
         windowContentPadding: {
           top: '0px',
           right: '0px',

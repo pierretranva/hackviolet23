@@ -40,12 +40,13 @@ import Navbar from './components/windows/Navbar'
 // import TopNavbar from './components/macos/TopNavbar.vue'
 import Window from './components/template/Window'
 import AppGrid from './components/AppGrid'
-import Placeholder from './components/views/Placeholder'
+import AboutUs from './components/views/AboutUs'
 import Photos from './components/views/Photos'
 import OSWindow from './components/template/Window'
 import Blueprint from './components/views/Blueprint'
 import Windows from './components/views/Windows.vue'
 import MacOS from './components/views/MacOS.vue'
+import Organizations from './components/views/Organizations.vue'
 export default {
     name: 'App',
     data: function () {
@@ -58,12 +59,13 @@ export default {
         Window,
         Navbar,
         AppGrid,
-        Placeholder,
+        AboutUs,
         Photos,
         OSWindow,
         Blueprint,
         Windows,
-        MacOS
+        MacOS,
+        Organizations
         // TopNavbar,
     },
     computed: {
@@ -82,11 +84,9 @@ export default {
         \*-------------------------------------------------*/
 
         let navbar = document.getElementById('navbar')
-        let topnavbar = document.getElementById('top-navbar')
-        let topNavbarHeight = topnavbar.clientHeight
         let navbarHeight = navbar.clientHeight
 
-        document.getElementById('screen').style.height = window.innerHeight - navbarHeight - topNavbarHeight + "px";
+        document.getElementById('screen').style.height = window.innerHeight - navbarHeight + "px";
 
         window.addEventListener('resize', () => {
             let vh = window.innerHeight * 0.01;
@@ -98,7 +98,7 @@ export default {
             document.html.style.height = window.innerHeight + "px";
         }
         window.addEventListener("resize", resetHeight);
-        this.$store.commit('setFullscreenWindowHeight', window.innerHeight - navbarHeight - topNavbarHeight + "px");
+        this.$store.commit('setFullscreenWindowHeight', window.innerHeight - navbarHeight  + "px");
     },
     methods: {
         openWindow(windowId) {
