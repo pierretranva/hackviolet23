@@ -24,6 +24,7 @@
                     >
                     </component>
                 </component>
+                <StartMenu v-if="$store.getters.getActiveWindow=='Menu'" style="position: absolute; z-index: 9999; bottom: 0; left: 0;"></StartMenu>
             </div>
             <app-grid></app-grid>
         </div>
@@ -48,6 +49,7 @@
     import MacOS from './components/views/MacOS.vue'
     import Organizations from './components/views/Organizations.vue'
     import Resources from './components/views/Resources.vue'
+    import StartMenu from './components/StartMenu.vue'
     export default {
         name: 'App',
         data: function () {
@@ -68,6 +70,7 @@
             MacOS,
             Organizations,
             Resources,
+            StartMenu,
             // TopNavbar,
         },
         computed: {
