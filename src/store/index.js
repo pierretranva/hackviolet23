@@ -19,9 +19,9 @@ export default new Vuex.Store({
 
     windows: [
       {
-        windowId: "AboutUs", // Unique ID
-        windowState: "open", // Window State [open, close, minimize]
-        displayName: "About Us", // Display Name (title under icon)
+        windowId: "LoremIpsum", // Unique ID
+        windowState: "close", // Window State [open, close, minimize]
+        displayName: "Lorem Ipsum", // Display Name (title under icon)
         windowComponent: 'window', // Window Component (can be changed to use modified windows)
         windowContent: 'Placeholder', // Window Content (used under slots)
         windowContentPadding: {
@@ -33,14 +33,14 @@ export default new Vuex.Store({
         position: "absolute", // Window Position
         positionX: "10vw", // Window Position X (when first opened)
         positionY: "15vh", // Window Position Y (when first opened)
-        iconImage: "Aboutus.png", // Window Icon Image
+        iconImage: "placeholder.png", // Window Icon Image
         altText: "Placeholder Icon", // Window Icon Alt Text
         fullscreen: false // Window Fullscreen State [true, false]
       },
       {
-        windowId: "Alumni", 
+        windowId: "MacOS", 
         windowState: "close",
-        displayName: "Notable Alumni",
+        displayName: "MacOS Theme",
         windowComponent: 'OSWindow',
         windowContent: 'MacOS',
         windowContentPadding: {
@@ -52,14 +52,14 @@ export default new Vuex.Store({
         position: "absolute",
         positionX: "1vw",
         positionY: "1vh",
-        iconImage: "Alumni.png",
+        iconImage: "placeholder.png",
         altText: "Placeholder Icon",
         fullscreen: false
       },
       {
-        windowId: "FreshmanProf", 
+        windowId: "Windows", 
         windowState: "close",
-        displayName: "Freshman Profile Page",
+        displayName: "Windows Theme",
         windowComponent: 'OSWindow',
         windowContent: 'Windows',
         windowContentPadding: {
@@ -71,14 +71,14 @@ export default new Vuex.Store({
         position: "absolute",
         positionX: "1vw",
         positionY: "1vh",
-        iconImage: "Freshmenupdated.png",
+        iconImage: "placeholder.png",
         altText: "Placeholder Icon",
         fullscreen: false
       },
       {
-        windowId: "Organizations", 
+        windowId: "Blueprint", 
         windowState: "close",
-        displayName: "Organizations",
+        displayName: "Blueprint Theme",
         windowComponent: 'OSWindow',
         windowContent: 'Blueprint',
         windowContentPadding: {
@@ -90,7 +90,7 @@ export default new Vuex.Store({
         position: "absolute",
         positionX: "1vw",
         positionY: "1vh",
-        iconImage: "Clubs.png",
+        iconImage: "placeholder.png",
         altText: "Placeholder Icon",
         fullscreen: false
       },
@@ -114,25 +114,6 @@ export default new Vuex.Store({
         fullscreen: false
       },
       // register your new windows here
-      {
-        windowId: "Resources", 
-        windowState: "close",
-        displayName: "Resources",
-        windowComponent: 'window',
-        windowContent: 'Resources',
-        windowContentPadding: {
-          top: '5%',
-          right: '5%',
-          bottom: '5%',
-          left: '5%'
-        },
-        position: "absolute",
-        positionX: "6vw",
-        positionY: "12vh",
-        iconImage: "placeholder.png",
-        altText: "Placeholder Icon",
-        fullscreen: false
-      },
     ],
   },
   mutations: {

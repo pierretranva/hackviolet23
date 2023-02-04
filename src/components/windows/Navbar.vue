@@ -27,6 +27,9 @@
         <div class="spacer"></div>
         <div alt="time" class="time">
             <img src="@/assets/speakers.png" class="icon-image"/>
+            <img src="@/assets/icons/Computer.png" class="icon-image"/>
+            <img src="@/assets/icons/desktop.png" class="icon-image"/>
+            <img src="@/assets/icons/dvd.png" class="icon-image"/>
             <time>
                 {{time}}
             </time>
@@ -85,7 +88,7 @@
         cursor: pointer;
     }
     .navbar-item-depressed {
-        width: 100px;
+        width: 120px;
         height: 28px;
         border-radius: 10px;
         margin-left: 2px;
@@ -171,7 +174,7 @@
         flex-grow: 1;
     }
     .time {
-        width: 75px;
+        width: 150px;
         margin: 5px;
         height: 25px;
         background: rgb(192, 192, 192);
@@ -183,7 +186,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        font-size: 0.6em;
+        font-size: 0.65em;
     }
     @media only screen and (max-width: 700px) { 
         .time {

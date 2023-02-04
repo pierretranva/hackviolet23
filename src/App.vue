@@ -36,17 +36,16 @@
     Import Components, you can change the path for different
     component themes (blueprint, windows, macos)
 \*------------------------------------------------------------*/
-import Navbar from './components/windows/Navbar'
+import Navbar from './components/blueprint/Navbar'
 // import TopNavbar from './components/macos/TopNavbar.vue'
 import Window from './components/template/Window'
 import AppGrid from './components/AppGrid'
 import Placeholder from './components/views/Placeholder'
 import Photos from './components/views/Photos'
-import OSWindow from './components/template/Window'
+import OSWindow from './components/template/OSWindow'
 import Blueprint from './components/views/Blueprint'
 import Windows from './components/views/Windows.vue'
 import MacOS from './components/views/MacOS.vue'
-import Resources from './components/views/Resources.vue'
 export default {
     name: 'App',
     data: function () {
@@ -64,8 +63,7 @@ export default {
         OSWindow,
         Blueprint,
         Windows,
-        MacOS,
-        Resources
+        MacOS
         // TopNavbar,
     },
     computed: {
@@ -126,9 +124,9 @@ export default {
     Change 'blueprint' to 'windows' or 'macos' to use windows or macos theme
 \*---------------------------------------------------------------------------*/
 @import './assets/css/utils/normalize.css';
-@import './assets/css/windows/app.css';
-@import './assets/css/windows/window.css';
-@import './assets/css/windows/appgrid.css';
+@import './assets/css/blueprint/app.css';
+@import './assets/css/blueprint/window.css';
+@import './assets/css/blueprint/appgrid.css';
 
 /*-------------------------------------------*\
     Utilities
@@ -153,7 +151,6 @@ html {
     width: 100%;
     position: relative;
     z-index: 999;
-    background-color: #e7d1ff;
 }
 
 /*-------------------------------------------*\
