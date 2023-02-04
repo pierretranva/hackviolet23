@@ -52,7 +52,7 @@
         Navbar Items
     \*-------------------------------------------*/
     .navbar-item {
-        width: 100px;
+        width: 120px;
         height: 28px;
         border-radius: 10px;
         margin-left: 2px;
