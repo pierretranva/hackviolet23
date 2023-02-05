@@ -149,8 +149,9 @@
         position: relative;
         z-index: 999;
         background-color: #e7d1ff;
-        background-image: url("./assets/wallpaper.png");
-        background-size:100%;
+        background-image: url("./assets/nopixel.jpg");
+        background-position: center top;
+        background-size: 100% auto;
     }
 
     component{
