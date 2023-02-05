@@ -43,7 +43,6 @@
     import AboutUs from './components/views/AboutUs'
     import Photos from './components/views/Photos'
     import Windows from './components/views/Windows.vue'
-    import MacOS from './components/views/MacOS.vue'
     import Organizations from './components/views/Organizations.vue'
     import Resources from './components/views/Resources.vue'
     import StartMenu from './components/StartMenu.vue'
@@ -64,7 +63,6 @@
             AboutUs,
             Photos,
             Windows,
-            MacOS,
             Organizations,
             Resources,
             StartMenu,
