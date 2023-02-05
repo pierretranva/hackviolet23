@@ -119,8 +119,8 @@ export default {
             y: 0,
             tempX: 0,
             tempY: 0,
-            w: 400,
-            h: 400,
+            w: 600,
+            h: 600,
 
         }
     },

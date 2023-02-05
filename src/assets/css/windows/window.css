@@ -16,8 +16,8 @@
     min-width: 50vw;
     max-width: 100vw !important;
     max-height: 100vh !important;
-    width: 40% !important;
-    height: 60% !important;
+    /* width: 40% !important;
+    height: 60% !important; */
 }
 
 /*-------------------------------------------*\

@@ -61,7 +61,7 @@ export default new Vuex.Store({
         windowState: "close",
         displayName: "Freshman Profile Page",
         windowComponent: 'window',
-        windowContent: 'Windows',
+        windowContent: 'FreshmanProfile',
         windowContentPadding: {
           top: null,
           right: null,
@@ -71,13 +71,13 @@ export default new Vuex.Store({
         position: "absolute",
         positionX: "1vw",
         positionY: "1vh",
-        iconImage: "Freshmenupdated.png",
+        iconImage: "freshman.png",
         altText: "Placeholder Icon",
         fullscreen: false
       },
       {
         windowId: "Organizations", 
-        windowState: "open",
+        windowState: "close",
         displayName: "Organizations",
         windowComponent: 'window',
         windowContent: 'Organizations',
@@ -121,9 +121,9 @@ export default new Vuex.Store({
         windowContent: 'Resources',
         windowContentPadding: {
           top: null,
-          right: null,
+          right: '2vw',
           bottom: null,
-          left: null
+          left: '2vw'
         },
         position: "absolute",
         positionX: "1vw",
