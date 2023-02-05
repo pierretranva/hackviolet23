@@ -207,59 +207,6 @@ Replace the slot tags with this snippet of HTML.
      
 7. Save all changed or created files and head to localhost to view changes.
      
-<a name="switch-themes"></a>
-## Switching Themes
-Included in the template are three different themes, the default Blueprint theme, a MacOS theme and a Windows theme. Switching between themes is made relatively easy but certain themes may require some minor tweaking.
-
-### Blueprint Theme
-1. Head over to ```/src/App.vue```, under the script section, import the Blueprint Navbar variant. 
-```js 
-import Navbar from './components/blueprint/Navbar'
-```
-
-2. Under the style section of App.vue, import the Blueprint CSS variant. 
-```css
-@import './assets/css/blueprint/app.css';
-@import './assets/css/blueprint/window.css';
-@import './assets/css/blueprint/appgrid.css';
-```
-
-3. Save all changes and head to localhost to view changes. 
-
-### Windows Theme
-1. Head over to ```/src/App.vue```, under the script section, import the Windows Navbar variant. 
-```js 
-import Navbar from './components/windows/Navbar'
-```
-
-2. Under the style section of App.vue, import the Windows CSS variant. 
-```css
-@import './assets/css/windows/app.css';
-@import './assets/css/windows/window.css';
-@import './assets/css/windows/appgrid.css';
-```    
-     
-
-### MacOS Theme
-1. Head over to ```/src/App.vue```, under the script section, import the MacOS Navbar variant ***and MacOS Top Navbar***. 
-```js 
-import Navbar from './components/macos/Navbar'
-import TopNavbar from './components/macos/TopNavbar.vue'
-```
-
-2. Register the Top Navbar
-```js
-components: {
-     ...,
-     TopNavbar
-}```
-     
-3. Under the style section of App.vue, import the MacOS CSS variant. 
-```css
-@import './assets/css/macos/app.css';
-@import './assets/css/macos/window.css';
-@import './assets/css/macos/appgrid.css';
-```
      
 <a name="window-api"></a>
 ## Window API
