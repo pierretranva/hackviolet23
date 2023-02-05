@@ -57,25 +57,6 @@ export default new Vuex.Store({
         fullscreen: false
       },
       {
-        windowId: "FreshmanProf", 
-        windowState: "close",
-        displayName: "Freshman Profile Page",
-        windowComponent: 'window',
-        windowContent: 'FreshmanProfile',
-        windowContentPadding: {
-          top: null,
-          right: null,
-          bottom: null,
-          left: null
-        },
-        position: "absolute",
-        positionX: "1vw",
-        positionY: "1vh",
-        iconImage: "freshman.png",
-        altText: "Placeholder Icon",
-        fullscreen: false
-      },
-      {
         windowId: "Organizations", 
         windowState: "close",
         displayName: "Organizations",

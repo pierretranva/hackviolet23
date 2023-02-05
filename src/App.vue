@@ -47,7 +47,7 @@
     import Resources from './components/views/Resources.vue'
     import StartMenu from './components/StartMenu.vue'
     import Alumni from './components/views/Alumni.vue'
-    import FreshmanProfile from './components/views/FreshmanProfile.vue'
+    // import FreshmanProfile from './components/views/FreshmanProfile.vue'
     export default {
         name: 'App',
         data: function () {
@@ -67,7 +67,7 @@
             Resources,
             StartMenu,
             Alumni,
-            FreshmanProfile,
+            // FreshmanProfile,
 
         },
         computed: {
