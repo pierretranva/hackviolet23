@@ -1,8 +1,4 @@
-# [OS Website Template for Vue.js](https://main-preview-site.netlify.app/)
 
-| [Blueprint Theme](https://blueprint-template.netlify.app/) | [Windows Theme](https://windows-template.netlify.app/) | [MacOS Theme](https://macos-template.netlify.app/) |
-| --------- | --------| ----- |
-| <img width="1440" alt="Screenshot 2021-12-21 at 5 16 53 PM" src="https://user-images.githubusercontent.com/24926784/146904065-05513a29-261b-4f35-b952-5bde1599a35d.png"/> | <img width="1440" alt="Screenshot 2021-12-21 at 5 16 53 PM" src="https://user-images.githubusercontent.com/24926784/147592582-8caa82c1-1d01-400c-b34e-e5fef7fdfbaf.png"/> | <img width="1440" alt="Screenshot 2021-12-29 at 3 06 44 PM" src="https://user-images.githubusercontent.com/24926784/147636162-cc095413-a099-4b59-baf0-36467fbfee99.png"> |
 
 
 ## Table of contents
@@ -34,34 +30,33 @@ This project aims to create an interactive Web OS template for Vue. Included in 
 - InteractJS
 - MomentJS
 
-<a name="pre-requisites"></a>
-## Pre-requisites
-- Vue 2 (Novice)
-- CSS (Novice)
-- Patience with CSS
-
 <a name="setup-instruction"></a>
 ## Setup Instructions
 
-1. Download the latest release from this page's sidebae
+1. Clone the repository to your local machine
 
 2. Make sure you have Vue.js installed 
 
 [Official Documentation from Vue](https://vuejs.org/v2/guide/installation.html)
 
-3. Rename the folder to ```vuejs-os-template```
+3. Rename the folder to ```hackviolet23```
 
 4. Cd into project folder and install packages + dependencies
 
 
 ```bash
-$ cd vuejs-os-template && npm install
+$ cd hackviolet23 && npm install
 ```
 
 4. Serve project
 
 ```bash
 $ npm run serve
+```
+5. If there is an error with node while loading the dev server (Windows OS ran into this problem) then type this command first:
+
+```bash
+$ $env:NODE_OPTIONS="--openssl-legacy-provider"
 ```
 
 <a name="register-windows-slots"></a>
@@ -282,23 +277,3 @@ components: {
 | iconImage | Name of icon image of window, icons should be placed in ```/assets/icons/``` | String |
 | altText | Icon's alternative text | String |
 | fullscreen | Tracks whether a window is in fullscreen or not | Boolean |
-    
-<a name="faq"></a>
-## FAQ
-### Can I use this for...
-- Yes. 
-     
-### Where are the CSS stored? 
-- ```/assets/css/```, go wild with it!
-     
-### Can I contribute or file an issue? 
-- Sure! Feel free to create an issue or a pull request.
-     
-### Is a Linux theme coming?
-- A Linux theme will eventually arrive when I am free to create it (and if the project gains enough traction).
-     
-### Why is this not in React?
-- I'm familiar with Vue mostly and I enjoy using Vue :D
-     
-### Can I contact you? 
-- Of course! [Email me](mailto:donchia@ymail.com) and check out [my website here](https://www.donchia.tech).
