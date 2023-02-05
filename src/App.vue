@@ -1,8 +1,6 @@
 <template>
     <div id="app">
-        <top-navbar id="top-navbar"></top-navbar>
-        <div class="screen" id="screen">
-            <!-- <center><img src="./assets/nopixel.jpg" /></center> -->
+        <div class="screen" id="screen" v-on:click="deinitWindows">
             <div 
                 v-for="window in windows" 
                 :key="window.key" 
@@ -112,8 +110,18 @@
             windowCheck(windowId) {
                 if (this.$store.getters.getWindowById(windowId).windowState == 'open') {
                     return true
-                }
+                }  
             },
+            deinitWindows() {
+            console.log("THISHDIFH")
+            if (this.$store.getters.getActiveWindow=='Menu') {
+                console.log('deinitWindows')
+            this.$store.commit('setActiveWindow', '')
+            setTimeout(() => {  
+                this.$store.commit('zIndexIncrement', '')
+                }, 0);
+            }
+        }
         },
     }
     </script>
