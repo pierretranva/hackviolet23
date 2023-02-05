@@ -2,6 +2,7 @@
     <div id="app">
         <top-navbar id="top-navbar"></top-navbar>
         <div class="screen" id="screen">
+            <!-- <center><img src="./assets/nopixel.jpg" /></center> -->
             <div 
                 v-for="window in windows" 
                 :key="window.key" 
@@ -150,13 +151,14 @@
         z-index: 999;
         background-color: #e7d1ff;
         background-image: url("./assets/nopixel.jpg");
-        background-position: center top;
-        background-size: 100% auto;
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+
+    
     }
 
-    component{
-        width:700px;
-    }
+    
     /*-------------------------------------------*\
         Fullscreen
     \*-------------------------------------------*/
