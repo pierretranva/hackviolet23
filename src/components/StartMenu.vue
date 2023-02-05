@@ -31,13 +31,20 @@
                 <u>Github Repo</u>
             </div>
             </a>
+            <div class="divider"></div>
+            <a href="https://www.registrar.vt.edu/graduation-multi-brief/checksheets.html" target="_blank">
+            <div class="bar">
+                <img class="social-image" src="@/assets/icons/checksheet.png"/>
+                <u>Checksheets</u>
+            </div>
+            </a>
         </div>
     </div>
 </template>
 <style scoped>
 .menu {
     width: 200px;
-    height: 170px;
+    height: 210px;
     background: black;
     background: rgb(195, 195, 195);
     overflow: hidden;
