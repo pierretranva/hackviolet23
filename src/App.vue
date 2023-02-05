@@ -44,8 +44,6 @@
     import AppGrid from './components/AppGrid'
     import AboutUs from './components/views/AboutUs'
     import Photos from './components/views/Photos'
-    import OSWindow from './components/template/Window'
-    import Blueprint from './components/views/Blueprint'
     import Windows from './components/views/Windows.vue'
     import MacOS from './components/views/MacOS.vue'
     import Organizations from './components/views/Organizations.vue'
@@ -66,8 +64,6 @@
             AppGrid,
             AboutUs,
             Photos,
-            OSWindow,
-            Blueprint,
             Windows,
             MacOS,
             Organizations,

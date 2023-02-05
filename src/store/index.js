@@ -20,7 +20,7 @@ export default new Vuex.Store({
     windows: [
       {
         windowId: "AboutUs", // Unique ID
-        windowState: "open", // Window State [open, close, minimize]
+        windowState: "close", // Window State [open, close, minimize]
         displayName: "About Us", // Display Name (title under icon)
         windowComponent: 'window', // Window Component (can be changed to use modified windows)
         windowContent: 'AboutUs', // Window Content (used under slots)
@@ -41,17 +41,17 @@ export default new Vuex.Store({
         windowId: "Alumni", 
         windowState: "close",
         displayName: "Notable Alumni",
-        windowComponent: 'OSWindow',
+        windowComponent: 'window',
         windowContent: 'Alumni',
         windowContentPadding: {
-          top: '0px',
-          right: '0px',
-          bottom: '0px',
-          left: '0px'
+          top: null,
+          right: null,
+          bottom: null,
+          left: null
         },
         position: "absolute",
-        positionX: "1vw",
-        positionY: "1vh",
+        positionX: "30vw",
+        positionY: "10vh",
         iconImage: "Alumni.png",
         altText: "Placeholder Icon",
         fullscreen: false
@@ -60,13 +60,13 @@ export default new Vuex.Store({
         windowId: "FreshmanProf", 
         windowState: "close",
         displayName: "Freshman Profile Page",
-        windowComponent: 'OSWindow',
+        windowComponent: 'window',
         windowContent: 'Windows',
         windowContentPadding: {
-          top: '0px',
-          right: '0px',
-          bottom: '0px',
-          left: '0px'
+          top: null,
+          right: null,
+          bottom: null,
+          left: null
         },
         position: "absolute",
         positionX: "1vw",
@@ -77,15 +77,15 @@ export default new Vuex.Store({
       },
       {
         windowId: "Organizations", 
-        windowState: "close",
+        windowState: "open",
         displayName: "Organizations",
         windowComponent: 'window',
         windowContent: 'Organizations',
         windowContentPadding: {
-          top: '0px',
-          right: '0px',
-          bottom: '0px',
-          left: '0px'
+          top: null,
+          right: null,
+          bottom: null,
+          left: null
         },
         position: "absolute",
         positionX: "1vw",
@@ -120,10 +120,10 @@ export default new Vuex.Store({
         windowComponent: 'window',
         windowContent: 'Resources',
         windowContentPadding: {
-          top: '0px',
-          right: '0px',
-          bottom: '0px',
-          left: '0px'
+          top: null,
+          right: null,
+          bottom: null,
+          left: null
         },
         position: "absolute",
         positionX: "1vw",
